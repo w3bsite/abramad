@@ -1,0 +1,57 @@
+[
+    {
+        "imageUrl": "images/1.jpg",
+        "targetUrl": null,
+        "postedBy": {
+            "name": "Alice",
+            "avatarUrl": "avatars/alice.jpg"
+        }
+    },
+    {
+        "imageUrl": "images/2.jpg",
+        "targetUrl": "https://abramad.com",
+        "postedBy": null
+    },
+    {
+        "imageUrl": "images/3.jpg",
+        "targetUrl": "https://systemgroup.net",
+        "postedBy": {
+            "name": "Charlie",
+            "avatarUrl": "avatars/charlie.jpg"
+        }
+    },
+    {
+        "imageUrl": "images/4.jpg",
+        "targetUrl": null,
+        "postedBy": null
+    },
+    {
+        "imageUrl": "images/5.jpg",
+        "targetUrl": null,
+        "postedBy": {
+            "name": "Eric",
+            "avatarUrl": null
+        }
+    },
+    {
+        "imageUrl": "images/6.jpg",
+        "targetUrl": null,
+        "postedBy": {
+            "name": "Frantz",
+            "avatarUrl": null
+        }
+    },
+    {
+        "imageUrl": "images/7.jpg",
+        "targetUrl": null,
+        "postedBy": null
+    },
+    {
+        "imageUrl": "images/8.jpg",
+        "targetUrl": null,
+        "postedBy": {
+            "name": "Hollie",
+            "avatarUrl": null
+        }
+    }
+]
