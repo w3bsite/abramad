@@ -5,13 +5,14 @@
       <div class="container bg-success rounded">
         <div class="row d-flex">
           <div class="col" v-for="(img, i) in obj" :key="i">
-            <img
-              style="max-height: 200px; max-width: 300px"
-              :src="'./images/img' + (i + 1) + '.jpg'"
-              alt=""
-              class="img-fluid rounded mx-auto d-block"
-            />
             <div class="img-overlay">
+              <img
+                style="max-height: 200px; max-width: 300px"
+                :src="'./images/img' + (i + 1) + '.jpg'"
+                alt=""
+                class="img-fluid rounded mx-auto d-block"
+              />
+
               <button class="btn btn-danger btn-rounded">save</button>
             </div>
           </div>
