@@ -1,18 +1,20 @@
 <template>
   <div>
     Images Comp
-    <div class="container bg-success rounded">
-      <div class="row d-flex">
-        <div class="col" v-for="(img, i) in obj" :key="i">
-          <img
-            style="max-height: 200px; max-width: 300px"
-            :src="'/images/' + i + '.jpg'"
-            alt=""
-            class="img-fluid rounded mx-auto d-block"
-          />
-          <button class="btn btn-danger btn-rounded" style="position: absolut">
-            save
-          </button>
+    <div class="img-wrapper">
+      <div class="container bg-success rounded">
+        <div class="row d-flex">
+          <div class="col" v-for="(img, i) in obj" :key="i">
+            <img
+              style="max-height: 200px; max-width: 300px"
+              :src="'/images/' + i + '.jpg'"
+              alt=""
+              class="img-fluid rounded mx-auto d-block"
+            />
+            <div class="img-overlay">
+              <button class="btn btn-danger btn-rounded">save</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -42,4 +44,18 @@ export default {
 </script>
 
 <style>
+.container .btn {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  font-size: 10px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
 </style>
