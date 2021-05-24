@@ -1,6 +1,6 @@
 [
     {
-        "imageUrl": "images/1.jpg",
+        "imageUrl": "images/img1.jpg",
         "targetUrl": null,
         "postedBy": {
             "name": "Alice",
@@ -8,12 +8,12 @@
         }
     },
     {
-        "imageUrl": "images/2.jpg",
+        "imageUrl": "images/img2.jpg",
         "targetUrl": "https://abramad.com",
         "postedBy": null
     },
     {
-        "imageUrl": "images/3.jpg",
+        "imageUrl": "images/img3.jpg",
         "targetUrl": "https://systemgroup.net",
         "postedBy": {
             "name": "Charlie",
@@ -21,12 +21,12 @@
         }
     },
     {
-        "imageUrl": "images/4.jpg",
+        "imageUrl": "images/img4.jpg",
         "targetUrl": null,
         "postedBy": null
     },
     {
-        "imageUrl": "images/5.jpg",
+        "imageUrl": "images/img5.jpg",
         "targetUrl": null,
         "postedBy": {
             "name": "Eric",
@@ -34,7 +34,7 @@
         }
     },
     {
-        "imageUrl": "images/6.jpg",
+        "imageUrl": "images/img6.jpg",
         "targetUrl": null,
         "postedBy": {
             "name": "Frantz",
@@ -42,12 +42,12 @@
         }
     },
     {
-        "imageUrl": "images/7.jpg",
+        "imageUrl": "images/img7.jpg",
         "targetUrl": null,
         "postedBy": null
     },
     {
-        "imageUrl": "images/8.jpg",
+        "imageUrl": "images/img8.jpg",
         "targetUrl": null,
         "postedBy": {
             "name": "Hollie",
